@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.navber{
+    margin-top: 10px;
+    /* background-color: crimson; */
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a {
+    color: white;
+    font-weight: bold;
+    margin-right: 25px;
+}
+button{
+    background-color: rgb(45, 108, 110);
+    padding: 10px;
+    width: 80px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+button a {
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    transform: translate();
+    background-color: rgb(63, 70, 73);
+}
+.butttonA{
+    background-color: rgb(45, 108, 110);
+    padding: 10px;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.main{
+    display: flex;
+}
+.para-line{
+    padding-left: 30px;
+    padding-top: 50px;
+    line-height: 50px;
+}
+.para1,
+.para2,
+.para3,
+.para4{
+    font-size: 25px;
+    font-weight: 600;
+}
+.para1{
+    color: rgb(122, 184, 184);
+}
+.para2{
+    color: yellow;
+}
+.para3{
+    color: rgb(168, 126, 211);
+}
+.amazing{
+    padding-left: 30px;
+    padding-top: 50px;
+    height: 450px;
+    border-radius: 20px;
+}
+.para4{
+    color: rgb(25, 214, 97);
+}
+.text1{
+    color: rgb(91, 131, 127);
+}
+.main2{
+    line-height: 20px;
+    width: 350px;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.line-black{
+    margin-left:1%;
+    margin-top: 50px;
+    height: 2px;
+    width: 98%;
+    background-color: rgb(197, 32, 32);
+    border: none;
+}
