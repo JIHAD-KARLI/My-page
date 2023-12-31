@@ -102,3 +102,53 @@ button:hover{
     background-color: rgb(197, 32, 32);
     border: none;
 }
+.maxpower{
+    height: 2px;
+    width: 98%;
+    border: none;
+    background-color: rgb(220, 69, 240);
+    margin-left: 1%;
+    margin-top: 20px;
+}
+.promax{
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.box-boss{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto  auto auto auto;
+    gap: 2rem;
+
+}
+.box1{
+    width: 100%;
+    height:auto;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+img{
+    border-radius: 10px;
+    width: 90%;
+    height: 200px;
+    margin: 10px;
+}
+video{
+    padding: 05px;
+    margin: 10px;
+    width: 98%;
+    height: 200px;
+    border-radius: 10px;
+}
+.box1:hover{
+    transform: translate(0%,-2%);
+    background-color:#FF014F;
+    color: black;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
