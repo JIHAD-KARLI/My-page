@@ -167,41 +167,163 @@ video{
 }
 
 .dsd{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
 }
 .box2{
     height: auto;
     width: 100%;
     background-color: rgb(63, 182, 190);
-    margin: 10px;
+    /* margin: 10px; */
     border-radius: 10px;
-    border: 2px solid;
+    /* border: 2px solid; */
 }
-.new{
-    /* margin-left: 20px; */
-    margin-left: 20px;
-}
+
 .hudai{
     margin-top: 20px;
-    height: 30px;
-    width: 25px;
+    height:30px;
+    width:25px;
 }
-.pope{
+/* .pope{
     margin-left: 10px;
     color: black;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-}
-.open{
+} */
+/* .open{
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
     padding: 10px;
-}
+} */
 h1{
     margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 20px;
 }
-h3{
-    padding: 4px;
+h4{
+    /* padding: 4px; */
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 1000
+}
+.pop:hover{
+    transform: translate(0%,-2%);
+    color: #FF014F;
+}
+.status{
+    margin-top: 50px;
+    height: auto;
+    width: 100%;
+    background-color: rgb(204, 80, 23);
+}
+.what{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 760;
+}
+.sarkel{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px;
+}
+.box7{
+    padding: 10px;
+    height: auto;
+    width: auto;
+    color: black;
+    background-color: rgb(175, 37, 49);
+    border-radius: 10px;
+}
+.box7:hover{
+    transform: translate(0%,-5%);
+    transition-duration: 1s;
+    color: gold;
+}
+
+.image07{
+    height: 80%;
+    width: 50%;
+    margin-top: 100px;
+    display: flex;
+    /* background-color: rgb(94, 81, 81); */
+}
+
+.left07{
+    gap: 2rem;
+}
+.big{
+    font-size: 50px;
+    padding: 40px;
+    color: white;
+    
+}
+.big1{
+    padding: 40px;
+    font-size: 25px;
+    color: white;
+    font-weight: 20;
+}
+.branch{
+    margin-top: 20%;
+    height: 100%;
+    width: 350%;
+}
+.boss{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 20%;
+}
+.dadu{
+    /* height: 500%; */
+    width: 500px;
+    margin-top: 50px;
+}
+
+.left08{
+    height: 80%;
+    width: 50%;
+    margin-top: 30px;
+}
+.big9{
+    font-size: 50px;
+    padding: 40px;
+    color: white;
+    
+}
+.big8{
+    padding: 40px;
+    font-size: 25px;
+    color: white;
+    font-weight: 20;
+}
+.maxpower2{
+    height: 4px;
+    width: 98%;
+    border: none;
+    background-color: rgb(39, 201, 241);
+    margin-left: 1%;
+    margin-top: 200px;
+    border-radius: 10PX;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    color: white;
+    background-color: #FF014F;
+    border-radius: 7px;
+   
 }
